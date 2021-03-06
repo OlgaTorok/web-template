@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Template</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+
+    <body data-spy="scroll" data-target="#navbarResponsive">
+
+        <!-- -------------------------- NAVBAR -------------------------- -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#home" class="navbar-brand"><img src="img/logo.png" alt="Logo" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item"><a href="#home" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- -------------------------- HOME section -------------------------- -->
+        <div id="home" class="container-flex">
+            <div class="landing-text">
+                <div class="row">
+                    <h1>Welcome to my Site</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#projects" class="btn btn-outlined-secondary btn-lg" role="button" aria-pressed="true">Projects</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------- ABOUT section -------------------------- -->
+        <section id="about" class="padding">
+            <div class="container">
+                <div class="row">
+                    <div class="info">
+                        <div class="text-center">
+                            <h1>hello</h1>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+                                commodi eaque provident repellendus recusandae cumque laborum
+                                aliquam ad eveniet accusamus. Est similique adipisci porro dolorem
+                                dignissimos doloremque voluptate animi nobis!
+                            </p>
+                            <p>It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining
+                                essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software
+                                like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div><hr style="width:80%; margin: auto;"></div>
+
+
+        <!-- -------------------------- Projects -------------------------- -->
+        <section id="projects" class="padding">
+            <div class="container">
+                <h1>projects</h1>
+                <p class="text-center sub-header">websites | illustrations | branding</p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                          <img src="./img/projects/web2.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                               <p class="card-text text-center">HTML - CSS - JavaScript</p>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                          <img src="./img/projects/web1.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                               <p class="card-text text-center">HTML - CSS - JavaScript</p>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                          <img src="./img/projects/web6.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                               <p class="card-text text-center">HTML - CSS - JavaScript</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div><hr style="width:80%; margin: auto;"></div>
+
+        <!-- -------------------------- Contact -------------------------- -->
+        <section id="contact" class="padding">
+            <div class="container">
+                <div class="row">
+                    <h1>contact</h1>
+                    <div class="col-sm-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input class="form-control" id="subject" rows="3"></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="6"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-light">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <img src="img/contact.png" alt="" width="400">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- -------------------------- Footer -------------------------- -->
+        <footer class="container-fluid text-center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/logo.png" alt="" class="icon">
+                </div>
+                <div class="col-sm-4">
+                    <p class="small">Copyright &copy; 2020 Olga Torok</p>
+                    <p class="footnote">Illustrations by Freepik Storyset</p>
+                </div>
+                <div class="col-sm-4">
+                    <span>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-linkedin-square"></i>
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

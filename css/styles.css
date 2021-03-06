@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Playfair+Display:wght@400;800&display=swap');
+
+/* -----------------------------
+            General
+-------------------------------- */
+html {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin: 15px;
+    color: #4b4f5f;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+p {
+    color: #4b4f5f;
+}
+
+hr {
+  border: 1px solid #f2f2f2;
+}
+
+.padding {
+    padding: 100px 0;
+}
+
+
+/* -----------------------------
+            Navigation
+-------------------------------- */
+.navbar {
+    background: none;
+    border: 0;
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    max-height: 50px;
+    padding: 0 15px 15px;
+}
+
+.navbar-brand img {
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    border: 1px solid #2aa9b7;
+}
+
+.navbar-default .navbar-nav .nav-link {
+    color: #2aa9b7;
+}
+
+.navbar-default .navbar-nav .nav-link:hover {
+    color: #2aa9b7;
+}
+
+.navbar-default .navbar-nav >.active > a,
+.navbar-default .navbar-nav >.active > a:focus,
+.navbar-default .navbar-nav >.active > a:hover {
+    color: #f9725f;
+    background: transparent;
+    border-bottom: 1px solid #f9725f;
+}
+
+
+/* -----------------------------
+            Home
+-------------------------------- */
+#home {
+    background: url(../img/palms.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-text {
+    display: table-cell;
+    background: rgb(16.9, 23.5, 29, .7);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.landing-text h1 {
+    font-size: 5em;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.landing-text p {
+    color: #fff;
+}
+
+.landing-text a {
+    width: 100px;
+    margin: auto;
+    border-color: #eff4f8;
+    color: #fff;
+}
+
+.landing-text a:hover,
+.landing-text a:focus  {
+    color: #2aa9b7;
+}
+
+/* -----------------------------
+            About
+-------------------------------- */
+.info {
+    padding: 0 100px;
+}
+
+/* -----------------------------
+            Project
+-------------------------------- */
+#projects .sub-header {
+    padding-bottom: 50px;
+    font-weight: 800;
+}
+
+.align-paragraph {
+    margin: auto 0;
+}
+
+.card {
+    position: relative;
+    margin: 20px;
+    border-shadow: box-shadow: 0px 14px 25px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow:0px 14px 25px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 14px 25px -1px rgba(0, 0, 0, 0.28);
+}
+
+.card img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: inherit;
+    background: rgba(249, 114, 95, 0.75);
+    font-weight: 600;
+    padding: 15px;
+}
+
+.card-body p {
+    margin: 0;
+    color: #fff;
+}
+
+/* -----------------------------
+            Contact
+-------------------------------- */
+form .mb-3 {
+    padding-bottom: 15px;
+}
+
+form > button {
+    background-color: #4b4f5f;
+    color: white;
+}
+
+/* -----------------------------
+            Footer
+-------------------------------- */
+footer {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 30px;
+}
+
+.icon {
+    height: 40px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    color: #4b4f5f;
+}
+
+.fa:hover,
+.fa:focus,
+.fa:visited {
+    color: #2aa9b7;
+    text-decoration: none;
+}
+
+.footnote {
+    font-size: 12px;
+}
+
+/* -----------------------------
+            Media
+-------------------------------- */
+
+/* @media screen and (max-width: 992px){
+
+} */
+
+
+/* (min-width: 30em) and (max-width: 80em){} */
